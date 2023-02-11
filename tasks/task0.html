@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=вумшсу-цшвер, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>
+        <a href="../index.html"> Назад</a>
+    </h3>
+    <h1>Завдання 0</h1>
+    <h3>
+        Обчислити значення виразів:
+    </h3>
+    
+    <script>
+        let a = parseFloat(prompt('Введіть значення a', ''))
+        let b = parseFloat(prompt('Введіть значення b', ''))
+        let c = parseFloat(prompt('Введіть значення c', ''))
+
+        let s1 = a + 12 + b
+        let s2 = Math.sqrt((a + b) / (2 * a))
+        let s3 = Math.cbrt((a + b) * c)
+        let s4 = Math.sin(a / -b)
+
+        document.write(`
+        <h3>S1 = ${s1}</h3>
+        <h3>S2 = ${s2}</h3>
+        <h3>S3 = ${s3}</h3>
+        <h3>S4 = ${s4}</h3>
+        `)
+    </script>
+</body>
+</html>

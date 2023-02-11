@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>
+        <a href="../index.html"> Назад</a>
+    </h3>
+    <h1>Задача 4</h1>
+    <p>Дано довжину у сантиметрах. Визначати скільки це метрів і кілометрів.</p>
+
+    <script>
+        let sm = parseFloat(prompt('Введіть довжину в сантиметрах', '0'))
+
+        let m = sm / 100
+        let km = sm / 100000
+        
+        document.write(`${m}-метрів<br> ${km}-кілометрів
+        `)
+    </script>
+</body>
+</html>
