@@ -13,8 +13,8 @@
     <h1>Задача 3</h1>
     <p>Дано вартість одиниці товару і кількість. Знайти загальну вартість та ПДВ (5% від загальної вартості).</p>
     <script>
-        let productPrice = parseInt(prompt('Ціна товару', '0'))
-        let quantityProduct = parseInt(prompt('Кількість товару', '0'))
+        let productPrice = parseFloat(prompt('Ціна товару', '0'))
+        let quantityProduct = parseFloat(prompt('Кількість товару', '0'))
 
         let totalPrice = productPrice * quantityProduct
         let taxProduct = totalPrice * 0.05
